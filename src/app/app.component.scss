@@ -1,0 +1,23 @@
+.pony-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    animation: dance 2s infinite ease-in-out;
+  }
+  
+  img {
+    width: 300px;
+  }
+  
+  @keyframes dance {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(5deg);
+    }
+    75% {
+      transform: rotate(-5deg);
+    }
+  }
+  
